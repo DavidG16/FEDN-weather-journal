@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+
+body{
+
+    background-color: #ECF1EF;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/**  containers **/ 
+.main-contaier{
+    max-width: 1400px;
+
+
+}
+.sub-container{
+    width: 80%;
+    max-width: 900px;
+}
+
+/**  Headings **/ 
+
+.intro {
+    text-align: center;
+}
+
+
+/**  sections **/ 
+.center {
+    margin: auto; 
+}
+.holder {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+#entryHolder {
+font-size: 16px;
+font-weight: 600;
+display: flex;
+flex-direction: row;
+margin: 20px;
+justify-content: center;
+}
+
+.entryHolder-item {
+    margin: 20px;
+}
+
+/**  User input form **/ 
+.user-input{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+}
+
+.user-content{
+    border-radius: 2px;
+    border: none;
+    background-color: #ECF1EF;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+ }
+
+ input {
+    outline: none;
+    height: 20px;
+    width: 170px;
+
+ }
+
+button {
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    width: 200px;
+
+}
+#generate {
+          position: relative;
+          z-index: 3;
+          background: transparent;
+          color: #1172c4;
+          font-size: 14px;
+          border-color: #1172c4;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 22px;
+          padding: 10px 40px;
+          text-transform: uppercase;
+          transition: all 0.2s linear;
+      }
+.white-blue {
+        font-weight: 700;
+        color: #00aeef;
+        border-color: white;
+        background: white;
+}
+
+#generate:hover {
+    color: white;
+    background: #1172c4;
+    border-color: white;
+    transition: all 0.2s linear;
+}

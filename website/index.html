@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="sub-container center">
+            <div class="intro">
+                <h1>Welcome to the weather journal app</h1>
+            </div>
+            <div class="holder"> 
+                <h2 class="holder intro"> Write in your journal!</h2>
+                <div class="user-input">
+                    <div class="holder zip">
+                        <input type="text" id="zip" class="user-content" placeholder="Enter zip code here" > 
+                    </div>
+                    <div class="holder entry">
+                        <textarea  class="user-content" type="text" id="my-content" rows="5" cols="20"> </textarea>
+                        <label class="label"  for="my-content">How are you feeling?</label>
+                    </div>
+                    <div class="intro">
+                        <button class="white-blue" id="generate" type="submit"> Add Entry </button>
+                    </div>
+                </div>
+            </div>
+            <div class="holder entry-list">    
+                <h2 class="intro"> Your past entries</h2>
+                <div class="holder intro" id="entryHolder">
+                    <div class="entryHolder-item" id="date"></div>
+                    <div class="entryHolder-item" id="temp"></div>
+                    <div class="entryHolder-item" id="content"></div>
+                </div>
+            </div>   
+        </div>    
+    </div>
+</body>
+<footer>
+    <script src="app.js" type="text/javascript"></script>
+</footer>
+</html>
+
