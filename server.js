@@ -14,10 +14,6 @@ app.use(express.static("website"));
 
 let projectData = {};
 
-
-// app.get("/", (req, res) => res.sendFile(path.join(__dirname,
-//     "website/index.html")));
-
 app.get('/showdata', function (req, res) {
     res.send(projectData);
 });
